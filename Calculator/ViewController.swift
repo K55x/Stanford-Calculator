@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     
     var userIsTyping = false
     
-    // connect UI With Code 
+    // connect UI With Code
     @IBAction func touchDigit(_ sender: UIButton) {
         
-        // get the number title
+        // get the number title 
         let digit = sender.currentTitle!
         
         if userIsTyping {
